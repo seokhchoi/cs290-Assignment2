@@ -1,0 +1,95 @@
+/**********************************************************************
+Name:           Seok Choi
+Date:           4/13/2019
+Class:          CS290 Spring 2019 400 
+Description:    Week 2 HW Assignment: HTML/CSS
+File:           style.css
+**********************************************************************/
+
+
+h4{
+    text-decoration: underline;
+}
+
+/*TABLE*/
+
+/* 1. Puts border around entire box and each cell*/
+table#table{
+    border:1px solid black;
+}
+
+table#table td{
+      border:1px solid black;
+}
+
+table#table th{
+    border:1px solid black;
+}
+
+/* 2. Makes alternate colors for odd and even rows*/
+/*Color code source: "https://htmlcolorcodes.com/" */
+
+/* Makes odd rows green-ish*/
+table#table tbody tr:nth-of-type(odd){
+    background-color:#58D68D;
+}
+/* Makes even rows blue-ish*/
+table#table tbody tr:nth-of-type(even){
+    background-color:#5DADE2;
+}
+
+
+/*DIV*/
+
+/*1. outer-content div*/
+
+div.outer-content{
+    /*Makes background color pink*/
+    background-color: pink;
+    /*Takes up 3/4 of page width*/
+    margin-left: 0px;
+    width: 75%;
+    /*Has a space of 20px between it and the previous element*/
+    margin-top: 20px;
+    /*Below are not required for assignment, and done for person preference*/
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+div.inner-content{
+    /*Makes background color blue*/
+    /*Note: Using "blue" was too dark, so a similar alternate was used. Code source: "https://htmlcolorcodes.com/" */
+    background-color: #5DADE2;
+    /*Makes inner-content div take up 3/4 of the page width of preant div width*/
+    width: 75%;
+    /*MAkes inner-content div be centerd*/
+    margin: auto;
+    text-align: center;
+}
+
+
+/*TWO FORMS*/
+
+label{
+    border: 1px solid black;
+    padding: 3px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+section.radio{
+    border: 1px solid black;
+    padding: 5px;
+    margin: 0 auto;
+    display: block;
+
+}
+
+ section.radio label{
+     border: none; 
+     padding: 0;
+     margin: 0;
+     padding: 3px;
+ }
+

@@ -1,0 +1,188 @@
+<!-- 
+Name:			Seok Choi
+Date:			4/13/2019
+Class:			CS290 Spring 2019 400 
+Description:	Week 2 HW Assignment: HTML/CSS
+File:			content.html
+ -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CS290 WEEK 2 HW - SEOK CHOI</title>
+	<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+
+<h4>I. 6x6 TABLE (WITH EXTRA CREDIT)</h4>
+
+<!-- Create a 6x6 table (inclusive of the header row) and fill in the table with your own contents -->
+<table id="table">
+	<caption>THE SIMPSONS: Random Numbers</caption>
+	<thead>
+		<tr>
+			<th></th>
+			<th>Homer</th>
+			<th>Marge</th>
+			<th>Bart</th>
+			<th>Lisa</th>
+			<th>Maggie</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td><em>Homer</em></td>
+			<td>2</td>
+			<td>3</td>
+			<td>4</td>
+			<td>5</td>
+			<td>6</td>
+		</tr>
+		<tr>
+			<td><em>Marge</em></td>
+			<td>2</td>
+			<td>3</td>
+			<td>4</td>
+			<td>5</td>
+			<td>6</td>
+		</tr>
+		<tr>
+			<td><em>Bart</em></td>
+			<td>2</td>
+			<td>3</td>
+			<td>4</td>
+			<td>5</td>
+			<td>6</td>
+		</tr>
+		<tr>
+			<td><em>Lisa</em></td>
+			<td>2</td>
+			<td>3</td>
+			<td>4</td>
+			<td>5</td>
+			<td>6</td>
+		</tr>
+		<tr>
+			<td><em>Maggie</em></td>
+			<td>2</td>
+			<td>3</td>
+			<td>4</td>
+			<td>5</td>
+			<td>6</td>
+		</tr>
+	</tbody>
+	<tfoot>
+    	<tr>
+        	<td colspan="2">Footer 1</td>
+        	<td colspan="4">Footer 2</td>
+    	</tr>
+	</tfoot>
+</table>
+
+<h4>II. LIST </h4>
+
+<!-- Create a list (ul, ol or dl) with at least 3 entries -->
+
+<ol>
+	<li>Ordered LI 1
+		<ul>
+			<li>Nested Unordered LI A</li>
+			<li>Nested Unordered LI B</li>
+			<li>Nested Unordered LI C</li>
+		</ul>
+	</li>
+	<li>Ordered LI 2</li>
+	<li>Ordered LI 3</li>
+</ol>
+
+<h4>III. DIV </h4>
+
+<!-- Create a div that is aligned to the left side of the page and takes up 3/4 of the page width, has a space of 20px between it and the previous elment and has a class of 'outer-content' (much of this is accomplished in css code-->
+
+<div class="outer-content">
+    <div class="inner-content">
+        Inner-Content Div 
+     </div>
+</div>
+
+<h4>IV. TWO FORMS: POST AND GET</h4>
+
+<!-- Create two forms. One should submit via a post, the other via a get, they should have identical content -->
+
+<form action="http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php" method="post">
+<fieldset>
+	<legend>Some POST data</legend>
+	<br>
+		<label for="text">Text here:
+		<input id="text" type="text" name="text_input">
+		</label>
+	<br>
+		<label for="number">Number here:	
+		<input id ="number" type="number" name="numerical_input">
+		</label>	
+	<br>
+		<label for="password">Password here:
+		<input id="password" type="password" name="password_input">
+		</label>		
+	<br>
+		<section class="radio">Select between:
+		<br><br>
+			<label for="Snickers">		
+			<input id="Snickers" type="radio" name="candy">
+			Snickers</label>
+			<br>
+			<label for="Skittles">
+			<input id="Skittles" type="radio" name="candy">	
+			Skittles</label>
+			<br>	
+			<label for="Mentos">
+			<input id="Mentos" type="radio" name="candy">	
+			Mentos</label>	
+			<br>
+		<input type="submit" name="submit">
+		<br>
+		</section>
+</fieldset>
+</form>
+
+<br><br>
+
+<form action="http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php" method="get">
+<fieldset>
+	<legend>Some GET data</legend>
+	<br>
+		<label for="text">Text here:
+		<input id="text" type="text" name="text_input">
+		</label>
+	<br>
+		<label for="number">Number here:	
+		<input id ="number" type="number" name="numerical_input">
+		</label>	
+	<br>
+		<label for="password">Password here:
+		<input id="password" type="password" name="password_input">
+		</label>		
+	<br>
+		<section class="radio">Select between:
+		<br><br>
+			<label for="Snickers">		
+			<input id="Snickers" type="radio" name="candy">
+			Snickers</label>
+			<br>
+			<label for="Skittles">
+			<input id="Skittles" type="radio" name="candy">	
+			Skittles</label>
+			<br>	
+			<label for="Mentos">
+			<input id="Mentos" type="radio" name="candy">	
+			Mentos</label>	
+			<br>
+		<input type="submit" name="submit">
+		<br>
+		</section>
+</fieldset>
+</form>
+
+</body>
+</html>
+
